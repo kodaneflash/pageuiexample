@@ -24,7 +24,7 @@ export default function Component() {
     },
   ];
 
-  const numberOfPortfolios = 1000; // Replace with actual number or fetch from API
+  const numberOfPortfolios = 0; // Replace with actual number or fetch from API
 
   return (
     <>
