@@ -67,7 +67,7 @@ export default function Component() {
             place={1} 
             size="default" 
             grayscale={true}
-            className="scale-125"
+            className="scale-125 mb-2"
           />
 
           <h1 className="text-pretty text-neutral-900 dark:text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:-tracking-4 lg:leading-[4rem] lg:font-extrabold font-bold max-w-3xl text-center mt-2">
