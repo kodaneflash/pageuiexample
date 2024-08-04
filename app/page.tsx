@@ -22,7 +22,7 @@ export default function Component() {
     },
   ];
 
-  const numberOfPortfolios = 1500; // Replace with actual number or fetch from API
+  const numberOfPortfolios = 10; // Replace with actual number or fetch from API
 
   return (
     <>
@@ -37,16 +37,8 @@ export default function Component() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center mt-8">
-          {/* Product Hunt Award */}
-          <LandingProductHuntAward 
-            place={3} 
-            size="default" 
-            grayscale={false}
-            className="scale-125 mb-4"
-          />
-
           {/* Become a member section */}
-          <div className="relative group mb-4">
+          <div className="relative group mb-8">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-emerald-600 rounded-full blur-sm group-hover:blur transition-all duration-300"></div>
             <Link
               href="/templates"
@@ -70,7 +62,15 @@ export default function Component() {
             </Link>
           </div>
 
-          <h1 className="text-pretty text-neutral-900 dark:text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:-tracking-4 lg:leading-[4rem] lg:font-extrabold font-bold max-w-3xl text-center mt-4">
+          {/* Product Hunt Award */}
+          <LandingProductHuntAward 
+            place={3} 
+            size="default" 
+            grayscale={false}
+            className="scale-125"
+          />
+
+          <h1 className="text-pretty text-neutral-900 dark:text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:-tracking-4 lg:leading-[4rem] lg:font-extrabold font-bold max-w-3xl text-center mt-2">
             Discover{' '}
             <span className="relative inline-block">
               secrets
