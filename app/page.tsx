@@ -70,7 +70,7 @@ export default function Component() {
               className="relative px-4 py-2 bg-white dark:bg-black border border-emerald-500 rounded-full inline-flex items-center space-x-2 text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-all duration-200"
             >
               <span className="text-sm font-medium">
-                Become a member of the SoloFoundersHub community!
+                Join the SoloFoundersHub community
               </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
