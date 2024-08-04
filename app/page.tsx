@@ -41,13 +41,13 @@ export default function Component() {
       <div className="w-full bg-gray-100 dark:bg-gray-800">
         <LandingSocialProofBand className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-4 py-2">
           <LandingSocialProofBandItem graphic="trophy" className="text-xs sm:text-sm">
-            #1 in Product Hunt
+            #1 in PH
           </LandingSocialProofBandItem>
           <LandingSocialProofBandItem graphic="rating" className="text-xs sm:text-sm">
-            4.9/5 from 1000+ reviews
+            4.9/5 
           </LandingSocialProofBandItem>
           <LandingSocialProofBandItem graphic="magic" className="text-xs sm:text-sm">
-            Used by 10,000+ founders
+            Used by 1000+ founders
           </LandingSocialProofBandItem>
         </LandingSocialProofBand>
       </div>
