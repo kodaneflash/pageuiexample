@@ -3,8 +3,6 @@ import Link from 'next/link';
 import { LandingSocialProof } from '@/components/landing/social-proof/LandingSocialProof';
 import { LandingMarquee } from '@/components/landing/LandingMarquee';
 import { LandingProductHuntAward } from '@/components/landing/social-proof/LandingProductHuntAward';
-import { LandingSocialProofBand } from '@/components/landing/social-proof/LandingSocialProofBand';
-import { LandingSocialProofBandItem } from '@/components/landing/social-proof/LandingSocialProofBandItem';
 
 import { Button } from '@/components/shared/ui/button';
 
@@ -35,21 +33,6 @@ export default function Component() {
           bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] 
           dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(0,0,0,0))]"
         ></div>
-      </div>
-  
-      {/* Responsive Social Proof Band - Removed padding and made it full width */}
-      <div className="w-full bg-gray-100 dark:bg-gray-800">
-        <LandingSocialProofBand className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-4 py-2">
-          <LandingSocialProofBandItem graphic="trophy" className="text-xs sm:text-sm">
-            #1 in PH
-          </LandingSocialProofBandItem>
-          <LandingSocialProofBandItem graphic="rating" className="text-xs sm:text-sm">
-            4.9/5 
-          </LandingSocialProofBandItem>
-          <LandingSocialProofBandItem graphic="magic" className="text-xs sm:text-sm">
-            Used by 1000+ founders
-          </LandingSocialProofBandItem>
-        </LandingSocialProofBand>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
